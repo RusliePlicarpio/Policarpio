@@ -14,4 +14,16 @@ int main() {
         std::cout << "Enter your choice: ";
         std::cin >> choice;
 
-
+if (list_choice == 1) {
+                } else if (list_choice == 2) {
+                    std::string extension;
+                    std::cout << "Enter file extension : ";
+                    std::cin >> extension;                  
+                } else if (list_choice == 3) {
+                    std::string pattern;
+                    std::cout << "Enter file pattern : ";
+                    std::cin >> pattern;                  
+                } else {
+                    std::cout << "Invalid choice.\n";
+                }
+                break;
