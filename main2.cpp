@@ -27,3 +27,20 @@ if (list_choice == 1) {
                     std::cout << "Invalid choice.\n";
                 }
                 break;
+}
+ case 2: {
+                std::string dir_name;
+                std::cout << "Enter directory name: ";
+                std::cin >> dir_name;               
+                break;
+            }       
+            case 3:
+                std::cout << "Exiting...\n";
+                break;
+            default:
+                std::cout << "Invalid choice. Please try again.\n";
+        }
+    } while (choice != 4);
+
+    return 0;
+       
